@@ -1,3 +1,5 @@
+///Copiando pares///
+
 function CopyPairs(arr){
     let pares = []; //almacena pares
 

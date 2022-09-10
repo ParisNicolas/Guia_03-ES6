@@ -1,3 +1,5 @@
+///Factores primos///
+
 //encontrador de numeros primos hasta el 10.000
 let primos=[2,3]  //[2,3,5,7,11,13,17,19]
 let bool=false;   //True=numero primo
@@ -23,9 +25,9 @@ function primeFactors(num){
 
     //recorre los numeros primos y mientras el numero sea divisible lo divide por el numero primo
     //cada bucle guarda el primo y modifica el valor de num
-    primos.map(primo => {while(num%primo===0) {factores.push(primo); num/=primo;}});
+    primos.map(primo => {if(num!=1){while(num%primo===0) {factores.push(primo); num/=primo;}}});
 
     return factores;
 }
 
-console.log(primeFactors(20));
+console.log(primeFactors(100));

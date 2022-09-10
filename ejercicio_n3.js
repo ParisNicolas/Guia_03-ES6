@@ -1,3 +1,5 @@
+///Sumando matrices///
+
 
 let alphabet = "abcdefghijklmnñopqrstuvwxyz";  //abecedario
 
@@ -18,7 +20,7 @@ console.log(rotString("abcd", -1));
 
     --Convierte la palabra de un string a un arreglo para poder usar map
     --Recorre cada letra y le agrega a la nueva palabra, la letra del abecedario que es igual a:
-        --El modulo "para decontar las vueltas"
+        --El modulo "para descontar las vueltas"
         --de la suma de el numero de desplazamiento dado "n" + indice en el abecedario de la letra a desplazar
         
         -:-En resumen la funcion index obtiene el indice de la nueva letra tomando encuenta las vueltas extra
